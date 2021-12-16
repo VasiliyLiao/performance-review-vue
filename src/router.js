@@ -22,9 +22,6 @@ const router = new Router({
         name: 'logout',
         path: '/logout',
         component: Logout,
-        meta: {
-          requiresAuth: true,
-        },
       },
       {
         name: 'employee',

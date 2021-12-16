@@ -1,24 +1,30 @@
 # performance_review_vue
 
-## Project setup
-```
-npm install
-```
+## Backend
+* [Github Project](https://github.com/VasiliyLiao/performance-review-graphql) 
+* [Online on Heroku](https://performance-reviews-graphql.herokuapp.com)
+## Frontend
+* [Github Project](https://github.com/VasiliyLiao/performance-review-vue)
+* [Online on Heroku](https://performance-reviews-vue.herokuapp.com/#/login)
+    * [Login Page](https://performance-reviews-vue.herokuapp.com/#/login)
+    * [Logout Page](https://performance-reviews-vue.herokuapp.com/#/logout)
+    * [Admin View - Employee Page](https://performance-reviews-vue.herokuapp.com/#/employee)
+    * [Admin View - Review Page](https://performance-reviews-vue.herokuapp.com/#/review)
+    * [Employee View - My Review Page](https://performance-reviews-vue.herokuapp.com/#/my_reviews)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Online Tests Users
 
-### Compiles and minifies for production
+#### Admin Role
 ```
-npm run build
+    email: admin@example.com
+    password: admin123
 ```
-
-### Lints and fixes files
+#### Employee Role
 ```
-npm run lint
+    email: employee1@example.com
+    password: test123456
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+    email: employee2@example.com
+    password: abcdefg12
+```
