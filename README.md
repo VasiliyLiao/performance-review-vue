@@ -28,3 +28,12 @@
     email: employee2@example.com
     password: abcdefg12
 ```
+
+## Images
+
+#### Admin View
+![Admin View - Employee Page](docs/admin-view-employee.png)
+![Admin View - Review Page](docs/admin-view-reviews.png)
+
+#### Employee View
+![Employee View](docs/employee-view-review.png)
