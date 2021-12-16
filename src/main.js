@@ -15,7 +15,7 @@ Vue.config.productionTip = false
 
 const apolloClient = new ApolloClient({
   // You should use an absolute URL here
-  uri: 'http://localhost:4000',
+  uri: 'https://performance-reviews-graphql.herokuapp.com',
   request: async operation => {
     const token = await localStorage.getItem('token');
     if (token) {
