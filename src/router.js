@@ -85,7 +85,7 @@ router.beforeEach((to, from, next) => {
       return
     }
 
-    if (to.matched.some((record) => record.meta.role === payload.role !== undefined)) {
+    if (to.matched.some((record) => record.meta.role !== undefined)) {
       const role = payload.role;
       const needBeRole = to.matched[0].meta.role;
 
